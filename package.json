@@ -1,8 +1,24 @@
 {
-	"dependencies": {
-		"lucide-react": "^1.16.0",
-		"next": "^16.2.6",
-		"react": "^19.2.6",
-		"tailwindcss": "^4.3.0"
-	}
+  "name": "american-seal-and-surface",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
 }
